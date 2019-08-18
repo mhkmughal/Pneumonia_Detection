@@ -1,0 +1,37 @@
+ 
+        <!------nurse----->
+		<li class="<?php if($page_name == 'manage_nurse')echo 'dark-nav active';?>">
+			<span class="glow"></span>
+				<a href="<?php echo base_url();?>index.php?admin/manage_nurse" >
+					<i class="icon-plus-sign-alt icon-2x"></i>
+					<span><?php echo get_phrase('nurse');?></span>
+				</a>
+		</li>
+        
+        <!------pharmacist----->
+		<li class="<?php if($page_name == 'manage_pharmacist')echo 'dark-nav active';?>">
+			<span class="glow"></span>
+				<a href="<?php echo base_url();?>index.php?admin/manage_pharmacist" >
+					<i class="icon-medkit icon-2x"></i>
+					<span><?php echo get_phrase('pharmacist');?></span>
+				</a>
+		</li>
+        
+        <!------laboratorist----->
+		<li class="<?php if($page_name == 'manage_laboratorist')echo 'dark-nav active';?>">
+			<span class="glow"></span>
+				<a href="<?php echo base_url();?>index.php?admin/manage_laboratorist" >
+					<i class="icon-beaker icon-2x"></i>
+					<span><?php echo get_phrase('laboratorist');?></span>
+				</a>
+		</li>
+        
+        <!------accountant----->
+		<li class="<?php if($page_name == 'manage_accountant')echo 'dark-nav active';?>">
+			<span class="glow"></span>
+				<a href="<?php echo base_url();?>index.php?admin/manage_accountant" >
+					<i class="icon-money icon-2x"></i>
+					<span><?php echo get_phrase('accountant');?></span>
+				</a>
+		</li>
+        
